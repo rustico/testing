@@ -1,0 +1,34 @@
+{
+  "resources": [
+    {
+      "name": "example-7",
+      "type": "table",
+      "path": "example(7).csv",
+      "scheme": "file",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "dialect": {
+        "headerRows": [
+          2
+        ]
+      },
+      "schema": {
+        "fields": [
+          {
+            "name": "hola",
+            "type": "string"
+          },
+          {
+            "name": "1111111",
+            "type": "integer"
+          },
+          {
+            "name": "1",
+            "type": "integer"
+          }
+        ]
+      }
+    }
+  ]
+}
